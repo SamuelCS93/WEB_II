@@ -1,0 +1,51 @@
+h2{
+    font-family: arial; 
+    color: #edc989;
+    font-weight: bold;
+    text-align: left;
+    background-color: red;
+}
+.t{
+    font-family: arial;
+    color: rgb(136, 5, 5);
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+}
+.esquerda{
+    text-align: left;
+    font-weight: bold;
+    font-family: arial;
+    color: rgb(136, 5, 5);
+    font-size: 16px;
+    font-weight: bold;
+}
+.centralizado{
+    text-align: center;
+    font-weight: bold;
+    font-family: arial;
+    color: rgb(136, 5, 5);
+    font-size: 16px;
+    font-weight: bold;
+}
+.direita{
+    text-align: right;
+    font-weight: bold;
+    font-family: arial;
+    color: rgb(136, 5, 5);
+    font-size: 16px;
+    font-weight: bold;v
+}
+.centro{
+    text-align: center;
+    font-style: italic;
+    color: #edc989;
+    background-color: red;
+    width: 100%;
+}
+div{
+    border: solid brown;
+    margin: 15%;
+    background-image: url("john\ lennon.jpg");
+    background-repeat: repeat-x;
+}

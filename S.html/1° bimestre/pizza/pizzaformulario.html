@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PizzaFomulario</title>
+    <link rel="icon" href="pizza.png" type="image/png">
+    <style>
+    </style>
+</head>
+<body>
+    <table border="1" width="100%">
+        <tr>
+            <td bgcolor="red" ></td>
+        </tr>
+        <tr>
+            <td>
+                <h4><img src="pizza.png" alt="left" height="20" width="20"><font color="red" face="Arial">Cadastre-se e receba nossas atualizações</font></h4><hr color="red"/>
+                <table border="1" align="center"><form>
+                    <tr>
+                        <td align="right">
+                            <h5><font color="red" face="Arial">Nome:</font></h5>
+                        </td>
+                        <td>
+                            <input type="text" name="txt_name" maxlength="20" value="digite seu nome aqui"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">
+                            <h5><font color="red" face="Arial">Senha:</font></h5>
+                        </td>
+                        <td>
+                            <input type="password" name="pwd_senha" maxlength="10"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">
+                            <h5><font color="red" face="Arial">Confirmação da senha:</font></h5>
+                        </td>
+                        <td>
+                            <input type="password" name="pwd_senha" maxlength="10"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">
+                            <h5><font color="red" face="Arial">Seu tipo de pizza preferido:</font></h5>
+                        </td>
+                        <td>
+                            <select name="Pizzatipe">
+                                <option value="b"/>Bacon
+                                <option value="QQ"/>quatro queijos
+                                <option value="pe"/>Pepperoni
+                                <option value="ci"/>California
+                                <option value="ca"/>Calabresa
+                                <option value="Po"/>Portuguesa
+                                <option value="Mu"/>Mussarela
+                                <option value="Ma" selected="selected"/>Margherita
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">
+                            <h5><font color="red" face="Arial">Quantas vezes como Pizza por semestre?</font></h5>
+                        </td>
+                        <td>
+                            <h5><input type="radio" name="quantidade" value="1.5"/><font color="red" face="Arial">Entre 1 a 5</font><br/>
+                            <input type="radio" name="quantidade" value="5.10"/><font color="red" face="Arial">5 a 10</font><br/>
+                            <input type="radio" name="quantidade" value="+10"/><font color="red" face="Arial">Mais de 10</font></h5><br/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">
+                            <h5><font color="red" face="Arial">Comentário:</font></h5>
+                        </td>
+                        <td>
+                            <textarea cols="50" rows="5" name="txt_comentarios">
+                            </textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <h5><font color="red" face="Arial"><input type="checkbox" name="email" value="DME" checked="checkbox"/>Deseja receber e-mail dos nossos parceiros</font></h5>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center">
+                            <button>Enviar</button> <button>limpar</button>
+                        </td>
+                    </tr>
+                </form></table>
+                <hr color="red"/>
+            </td>
+        </tr>
+        <tr align="center">
+            <td><h6><u><font color="red" face="Arial">WWW.pizzaonline.com.br</font></h6></u></td>
+        </tr>
+        <tr>
+            <td bgcolor="red"></td>
+        </tr>
+    </table>
+    
+</body>
+</html>

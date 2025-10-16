@@ -1,0 +1,30 @@
+.conteiner{
+    border: dotted 1px #ccbb99;
+    margin: 0% 15% 0% 15%;
+}
+.titulo{
+    background-color: #ccbb99;
+    text-align: right;
+    width: 100%;
+    font-family: arial;
+    font-weight: bold;
+}
+p{
+    color: #ccbb99;
+    text-align: justify;
+    font-weight: bold;
+    text-indent: 5%;
+    font-family: arial;
+    margin:0px 10px 0px 10px;
+}
+.rodape{
+    background-color: #ccbb99;
+    font-family: arial;
+    font-style: italic;
+    font-size: 10px;
+    font-weight: bold;
+    width: 100%;
+}
+.name{
+    font-style: italic;
+}

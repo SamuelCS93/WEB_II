@@ -1,0 +1,37 @@
+body {
+    background-image:url('pizza-forno.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+a:link{
+    text-decoration: none; 
+    color: blue;
+}
+a:visited{
+    text-decoration: none;
+    color: blue;
+}
+a:hover{
+    background-color: blue;
+    color: white;
+}
+a:active{
+    background-color: green;
+    color: white;
+}
+.conteudo {
+    font-family: Arial;
+    max-width: 900px; /* Define a largura máxima do conteúdo */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    padding: 20px; /* Espaço interno para o conteúdo */
+    border: 1px solid #ee5d09; /* Bordas sutis */
+    background-color: white;
+    color:red;
+}
+.pizzas{
+    border: 5px solid black;
+}
+ol{
+    color: red;
+}

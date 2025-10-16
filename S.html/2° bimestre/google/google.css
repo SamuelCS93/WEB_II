@@ -1,0 +1,31 @@
+span{
+    font-size: 50px;
+    font-family: arial;
+}
+span.blue{
+    color: blue;
+
+}
+span.red{
+    color: red;
+}
+span.yellow{
+    color: yellow;
+}
+span.green{
+    color: green;
+}
+.author{
+    font-weight: bold;
+    font-size: 10px;
+    font-style: italic;
+    text-align: right;
+}
+hr{
+    height: 2px;
+    background-color: blue;
+}
+.conteiner{
+    margin: 10% 30% 10% 30%;
+    text-align: center;
+}

@@ -1,0 +1,40 @@
+body{
+    background-color: black;
+}
+h2{
+    font-family: arial;
+    color: white;
+    font-style: italic;
+    width: 88%;
+    background-image: url("script.jpg");
+    background-repeat: no-repeat;
+    height: 30px;
+}
+h2.down{
+    text-align: right;
+}
+.neo{
+    width: 200px;
+    background-image: url("neo.jpg");
+    background-repeat: repeat-y;
+}
+p{
+    font-family: Verdana;
+    font-size: 12px;
+    color: lightgreen;
+    text-indent: 50px;
+    text-align: justify;
+    width: 88%;
+}
+.conteiner{
+    background-image: url("neo.jpg");
+    background-repeat: repeat-y;
+    background-position: right top;
+    width: 66%;
+    margin: auto;
+    background-color: black;
+}
+table{
+    border-collapse: separate;
+    border-spacing: 200px 0px;
+}
